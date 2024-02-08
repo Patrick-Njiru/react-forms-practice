@@ -1,4 +1,3 @@
-import { NavLinks } from "../components"
 
 const Home = () => {
   <div className="text-center text-primary">

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { UsersTable } from '../components'
+import UsersTable from '../components/UsersTable'
 
 const SimpleUsers = ({users}) => {
   return (
