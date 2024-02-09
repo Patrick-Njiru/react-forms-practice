@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 
 
 // const bootstrapTable = <table class="table">
@@ -32,8 +32,8 @@
 //   </table>
 
 
-const UsersTable = props => {
-  const [gender, userName] = props
+const UsersTable = ({gender, userName}) => {
+  // const [gender, userName] = props
 
 
   return (
@@ -124,8 +124,9 @@ const UsersTable = props => {
   )
 }
 
-// UsersTable.propTypes = {
-  // gender : PropTypes.any.isRequired
-// }
+UsersTable.propTypes = {
+  gender: PropTypes.any,
+  userName: PropTypes.string,
+}
 
 export default UsersTable
